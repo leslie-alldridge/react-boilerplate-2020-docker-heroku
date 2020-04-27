@@ -2,6 +2,7 @@
   "name": "boilerplate",
   "version": "0.1.0",
   "author": "Leslie Alldridge 2020",
+  "homepage": "https://react-boilerplate-2020-docker.herokuapp.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
