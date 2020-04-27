@@ -10,4 +10,4 @@ RUN npm install
 
 COPY . .
 RUN npm run build
-CMD serve -p $PORT -s dist
+CMD serve -p $PORT -s build
