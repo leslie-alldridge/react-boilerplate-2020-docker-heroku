@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-RUN npm install --only=dev && npm install && npm run build
+RUN npm install --only=dev && npm install
 
 COPY . .
 
