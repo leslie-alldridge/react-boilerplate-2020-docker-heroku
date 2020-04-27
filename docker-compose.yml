@@ -6,5 +6,5 @@ services:
     build:
       context: .
     ports:
-      - '${PORT}:3000'
+      - '3000:3000'
     stdin_open: true
