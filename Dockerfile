@@ -4,10 +4,10 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-RUN npm install --only=dev && npm install
+RUN npm install -g serve
+
+RUN npm install
 
 COPY . .
-
-EXPOSE 3000
-
-CMD [ "npm", "start" ]
+RUN npm run build
+CMD serve -p $PORT -s dist
