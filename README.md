@@ -35,6 +35,7 @@
 | GitHub Pages     |   Hosting   |       Y        |
 | Codefactor       |   Quality   |       Y        |
 | Sass             |   Styling   |       Y        |
+| Docker   |   Container   |       Y        |
 
 <strong>Note:</strong> You can convert this project to Typescript, please see <a href="https://stackoverflow.com/questions/47508564/migrating-create-react-app-from-javascript-to-typescript">here</a>
 
